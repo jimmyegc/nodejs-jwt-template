@@ -1,0 +1,17 @@
+### Hi
+http://localhost:3000/
+
+### Login
+POST http://localhost:3000/login
+Content-type: application/json
+
+{
+  "user": "admin",
+  "pass": "123456"
+}
+
+### Get Info
+http://localhost:3000/info
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNzAwMDY5Mjg4LCJleHAiOjE3MDA2NzQwODh9.KEh-chrX2p9Cy9WgQnECCq7X0YMiz4RF1yG5kOSkatM
+
